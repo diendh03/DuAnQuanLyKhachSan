@@ -1,0 +1,241 @@
+
+   
+  .content__product--detail.row.row-12{
+    display: flex;
+    margin-top: 40px;
+  }
+  .content__product--detail.row.row-12:last-child{
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  
+  .row{
+  
+  }
+  
+  .row-12{
+    width: 100%;
+  }
+  
+  .product__detail--img--box{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  .col-8{
+    width: calc(100% - (100% / 3));
+  }
+  
+  .product__detail--info--box{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  .col-4{
+    width: calc(100% / 3);
+  }
+  
+  .col-6{
+    width: calc(100% / 2);
+  }
+  
+  .product__long--desc--box{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  .product__long--desc--box.row-12{
+    width: unset;
+  }
+  
+  .product__ratting{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  .product__ratting.row-12{
+    width: unset;
+  }
+  
+  .product__detail--img{ 
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .product__name{ 
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .product__price{ 
+    color: red;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 32px;
+  }
+  
+  .product__price span{ 
+    margin-left: 6px;
+  }
+  
+  .product__quantity--box{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product__quantity--label,.product__description--label{
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #121212;
+  }
+  
+  .product__quantity,.product__description{
+    font-size: 16px;
+    font-weight: 500;
+    color: #121212;
+  }
+  
+  
+  .product__buy--value--box{
+    margin-bottom: 10px;
+  }
+  
+  .product__buy--value--title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #121212;
+    margin-right: 10px;
+  }
+  
+  .product__buy--value{
+    width: 40px;
+    padding: 4px;
+    border: 1.6px solid #121212;
+    outline: unset;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  .product__buy--function{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .product__buy--function button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 520;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  .product__buy--function--buy--now{ 
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .product__buy--function--add--to--cart{ 
+    background-color: #ccc;
+    color: #121212;
+  }
+  
+  .col-12{ 
+    width: 100%;
+  }
+/*---------------Bình luận------------- */
+  .user--ratting--value--box{ 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+  }
+  .user--ratting--value--box > label{ 
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .user--ratting--start{
+    width: 40px;
+    border: 1.6px solid #121212;
+    outline: unset;
+    padding: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  .user--ratting--comment{
+    font-size: 16px;
+    font-weight: 500;
+    color: #121212;
+    height: 60px;
+    padding: 10px;
+    border: 1.6px solid #121212;
+    outline: unset;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  .user--ratting--get--err{
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+  }  
+  .submit-comment {
+    padding: 5px;
+  }
+
+  .product_detail--ratted{
+    margin-top: 100px;
+  }
+  
+  
